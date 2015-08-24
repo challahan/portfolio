@@ -17,6 +17,9 @@
 	@media screen and (min-width: 800px) {
 		width: 45%;
 		float: left;
+		&:before {
+			height: 20px;
+		}
 	}
 }
 
@@ -29,7 +32,8 @@
 		background-color: $light-yellow;
 	}
 	@media screen and (min-width: 800px) {
-		margin-right: 10%;
+		margin-right: 8%;
+		margin-left: 2%;
 	}
 }
 

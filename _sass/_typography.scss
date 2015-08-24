@@ -19,6 +19,10 @@ h2 {
 		height: 100%;
 		display: inline-block;
 	}
+	@media screen and (min-width: 700px) {
+		font-size: 2.5em;
+		max-width: 70%;
+	}
 }
 
 h3 {
@@ -45,6 +49,9 @@ p {
 	padding-bottom: 2em;
 	border-bottom: 1px solid $gray;
 	margin-bottom: 2.5em;
+	@media screen and (min-width: 700px) {
+		max-width: 90%;
+	}
 }
 
 p a {

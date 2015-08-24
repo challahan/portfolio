@@ -4,8 +4,9 @@ nav {
 	padding: .75em;
 	margin-bottom: 1em;
 	ul {
+		display: -webkit-flex;
 		display: flex;
-		flex-direction: row;
+		justify-content: space-between;
 		list-style-type: none;
 		width: 80%;
 		margin: 0 auto;
@@ -15,7 +16,20 @@ nav {
 		text-decoration: none;
 	}
 	li {
-		width: 25%;
+		-webkit-flex-direction: row;
+		flex-direction: row;
 		text-align: center;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	nav {
+		position: absolute;
+		width: 40%;
+		border-radius: 5px;
+		right: 0px;
+		margin-right: -5px;
+		max-width: 450px;
+		font-size: 1.3em;
 	}
 }
