@@ -9,10 +9,11 @@ dl, dd, ol, ul, figure {
 }
 
 body {
-   font-family: "depot-new-web", sans-serif;
-   max-width: 1000px;
    margin: 0 auto;
-   padding: 1em;
+}
+
+main {
+    padding: 1em 1.5em;
 }
 
 /**
@@ -81,13 +82,16 @@ pre {
     }
 }
 
-
+* {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
 
 /**
  * Clearfix
  */
-%clearfix {
+@mixin clearfix {
 
     &:after {
         content: "";

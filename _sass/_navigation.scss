@@ -1,0 +1,21 @@
+nav {
+	background-color: $dark-blue;
+	font-family: $sans-serif-condensed;
+	padding: .75em;
+	margin-bottom: 1em;
+	ul {
+		display: flex;
+		flex-direction: row;
+		list-style-type: none;
+		width: 80%;
+		margin: 0 auto;
+	}
+	a {
+		color: white;
+		text-decoration: none;
+	}
+	li {
+		width: 25%;
+		text-align: center;
+	}
+}

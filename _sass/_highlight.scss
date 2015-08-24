@@ -1,0 +1,40 @@
+.highlight {
+	position: relative;
+	margin-bottom: 2em;
+	&:before {
+		content:"";
+		width: 12px;
+		border-radius: 3px;
+		margin-left: -1.75em;
+		position: absolute;
+		height: 100%;
+		display: inline-block;
+	}
+	a {
+		text-decoration: none;
+		color: $gray;
+	}
+	@media screen and (min-width: 800px) {
+		width: 45%;
+		float: left;
+	}
+}
+
+.highlight-container {
+	@include clearfix;
+}
+
+.highlight-writing {
+	&:before {
+		background-color: $light-yellow;
+	}
+	@media screen and (min-width: 800px) {
+		margin-right: 10%;
+	}
+}
+
+.highlight-projects {
+	&:before {
+		background-color: $green;
+	}
+}

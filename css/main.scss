@@ -5,6 +5,13 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+		"variables",
         "base",
-        "header"
+        "typography",
+        "header",
+        "navigation",
+        "highlight",
+        "buttons",
+        "footer",
+        "project"
 ;
