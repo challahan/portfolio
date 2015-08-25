@@ -14,7 +14,11 @@
 		text-decoration: none;
 		color: $gray;
 	}
-	@media screen and (min-width: 800px) {
+	h3 {
+		margin-top: 0;
+		padding-top: 0;
+	}
+	@media screen and (min-width: 700px) {
 		width: 45%;
 		float: left;
 		&:before {
@@ -31,9 +35,13 @@
 	&:before {
 		background-color: $light-yellow;
 	}
-	@media screen and (min-width: 800px) {
+	@media screen and (min-width: 700px) {
 		margin-right: 8%;
 		margin-left: 2%;
+	}
+	@media screen and (min-width: 1000px) {
+		margin-right: 8%;
+		margin-left: 0;
 	}
 }
 
@@ -41,4 +49,24 @@
 	&:before {
 		background-color: $green;
 	}
+}
+
+.blog-posts, .project-posts {
+	@include clearfix;
+	list-style-type: none;
+	li:nth-child(odd) {
+		margin-right: 10%;
+	}
+}
+
+.project-posts {
+	img {
+		max-width: 300px;
+	}
+}
+
+.project-thumb {
+	height: 200px;
+	overflow: hidden;
+	margin-bottom: 1em;
 }

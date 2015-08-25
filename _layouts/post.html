@@ -1,11 +1,15 @@
 ---
 layout: default
 ---
+<h3 class="post-title">{{ page.title }}</h3>
 <div class="post">
+	<p class="post-meta">
+	<span class="post-date">{{ page.date | date: "%b %-d, %Y" }}</span>
+	{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
 
-  <img src="../../../assets/{{page.thumbnail}}" />
-    <h2 class="post-title">{{ page.title }}</h2>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+  <div class="post-thumb-large">
+  	<img src="../../../assets/{{page.thumbnail}}" />
+  </div>
 
   <article class="post-content">
     {{ content }}

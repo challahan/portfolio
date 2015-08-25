@@ -6,4 +6,19 @@ a.button {
 	margin-bottom: 1em;
 	display: inline-block;
 	border-radius: 5px;
+	margin-top: 1em;
+	text-decoration: none;
+	transition: .3s all ease;
+	&:hover, &:focus {
+		background-color: $light-blue;
+	}
+}
+
+a.read-more-link {
+	display: block;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: $light-blue;
+	font-size: .85em;
+	margin-bottom: 2em;
 }

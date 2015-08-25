@@ -6,11 +6,11 @@ permalink: /about/
 
 I work full time for Kent State's College of Communication & Information (CCI) as a User Experience Designer at the college and IdeaBase, a collaborative, student-run agency located in Downtown Kent, where we conduct research, design and development work for real-world clients, both inside and outside the university.
 
-## Philosophy
+### Philosophy
 
 Make the web an engaging experience for all through user-centered design, content strategy and standards-based development.
 
-## Education
+### Education
 
 **Kent State University, August 2010**
 Master’s of Science, User Experience Design
@@ -18,9 +18,9 @@ Master’s of Science, User Experience Design
 **Kent State University, August 2008**
 Bachelor’s of Arts, Electronic Media Management
 
-## Experience
+### Experience
 
-### November 2014 – Present
+#### November 2014 – Present
 IdeaBase and College of Communication and Information, Kent State University, User Experience Designer
 
 * Oversee user experience research for IdeaBase, an integrated marketing agency powered by Kent State students, including usability studies with eye tracking, contextual inquiry, survey design and persona development.
@@ -32,7 +32,7 @@ IdeaBase and College of Communication and Information, Kent State University, Us
 * Mentor and train students on the latest in web and interaction design standards.
 * Research and discover new ways to integrate web technology and user experience design into our workflow, advocating a mobile-first and content-first strategy.
 
-###November 2012 – November 2014
+####November 2012 – November 2014
 University Communications and Marketing, Kent State University , Interactive Designer and Developer
 
 * Designed new Kent State website’s look-and-feel, including colors, typography and user interface patterns
@@ -44,7 +44,7 @@ University Communications and Marketing, Kent State University , Interactive Des
 * Assist with usability testing and focus groups for high school students and the Kent State community
 * Provide weekly support and troubleshooting for the university’s content management system
 
-###August 2011 – November 2012
+####August 2011 – November 2012
 Division of Information Services, Kent State University , Lead IT User Support Analyst
 
 * Maintained architecture, navigation, knowledge management and metrics for the campus online support system Served on web advisory board, developing goals, prototypes and process flows for various technology websites Designed print marketing materials, using Adobe Creative Suite, that promoted IT services
@@ -54,25 +54,25 @@ Division of Information Services, Kent State University , Lead IT User Support A
 * Worked with the Helpdesk and The Tech Spot to maintain excellence in quality and customer experience
 * Coached and trained student team members on how to give excellent customer service through creative scenarios Supervised 40 student employees for Tech at Night and managed two student office employees
 
-### August 2010 – August 2011
+#### August 2010 – August 2011
 Division of Information Services, Kent State University , Marketing Coordinator
 
 * Organized written communications and print/video marketing materials for constituents and employees
 * Translated technical language into engaging and informative final products for both technical and non-technical users Conducted usability testing for multiple projects, including the IS website redesign and Identity Management project
 
-### August 2007 – August 2010
+#### August 2007 – August 2010
 The Tech Spot, Kent State University , Graduate Assistant and Computer Consultant
 
 * Developed repair pricing for computers and mobile devices, marketing campaigns and customer satisfaction reports
 * Led the front-end user experience design, research and testing for a web-based customer check-in kiosk
 * Trained student staff team members, conducted job interviews and collaborated with university administration
 
-### 2008 – 2009
+#### 2008 – 2009
 School of Journalism and Mass Communication, Kent State University, Graduate Assistant
 
 * Worked on a year-long redesign project for the Journalism and Mass Communication website
 
-### 2004 – Present
+#### 2004 – Present
 Freelance Web Programming and Design, Hallahan Productions
 
 * Used Photoshop, Dreamweaver, HTML, CSS, WordPress, Joomla, JavaScript, search optimization and information architecture to design various client website

@@ -1,29 +1,48 @@
+.header-wrapper {
+	background-color: $light-blue;
+	margin-bottom: 1em;
+	@media screen and (min-width: 800px) {
+		border-bottom: 5px solid $dark-blue;
+		margin-bottom: 3em;
+	}
+}
+
 header {
 	background-color: $light-blue;
 	color: white;
 	text-align: center;
 	padding-top: 1em;
 	position: relative;
+	max-width: 1000px;
+	margin: 0 auto;
 	h1 {
 		font-family: $sans-serif-condensed;
 		text-transform: lowercase;
 		font-size: 2.5em;
 		margin-bottom: .35em;
+		text-shadow: 1px 1px 1px rgba(0,0,0,.7);
 		span {
+			transition: .3s color ease;
 			color: $gold;
 		}
 	}
 	a {
 		color: white;
 		text-decoration: none;
+		transition: .3s color ease;
+		&:hover, &:focus {
+			color: $gold;
+			h1 span {
+				color: white;
+			}
+		}
 	}
-	@media screen and (min-width: 800px) {
+	@media screen and (min-width:750px) {
 		text-align: left;
-		padding-left: 1.5em;
 		padding: 2em;
+		padding-left: 1.5em;
+		display: -webkit-flex;
 		display: flex;
-		margin-bottom: 2.5em;
-		border-bottom: 5px solid $dark-blue;
 		overflow: hidden;
 		h1 {
 			font-size: 3.5em;
@@ -31,7 +50,9 @@ header {
 			margin-top: -.25em;
 		}
 	}
-	@media screen and (min-width: 1000px) {
-		padding-left: 10%;
+	@media screen and (min-width:1000px) {
+		h1 {
+			font-size: 3.9em;
+		}
 	}
 }

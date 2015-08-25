@@ -1,14 +1,12 @@
 ---
 layout: default
 ---
+<h3 class="post-title">{{ page.title }}</h3>
 <div class="post">
-
-  <img src="../../../assets/{{page.thumbnail}}" />
-
-    <h2 class="post-title">{{ page.title }}</h2>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-
   <article class="post-content">
+  <div class="post-thumb-large">
+  	<img src="../../../assets/{{page.thumbnail}}" />
+  </div>
     {{ content }}
   </article>
 

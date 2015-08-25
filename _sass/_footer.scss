@@ -1,14 +1,84 @@
 footer {
-	background-color: $light-blue;
 	color: white;
-	border-top: 4px solid $dark-blue;
-	padding: 1em;
-	margin-top: 2em;
-	h2, h3 {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 1.5em;
+	
+	h3 {
 		color: $gold;
 		text-transform: none;
+		font-size: 2em;
+		margin-top: .25em;
+		font-family: $sans-serif-condensed;
+		font-weight: bold;
+		margin-bottom: .25em;
+		padding-top: 0;
+		@media screen and (min-width: 700px) {
+			font-size: 2.5em;
+		}
 	}
 	a {
 		color: white;
 	}
+	p {
+		font-size: 1.2em;
+	}
+}
+
+.footer-supplemental {
+	@include clearfix;
+	margin-top: 1em;
+}
+
+.footer-bottom {
+	p {
+		margin: 0.25em 0;
+		font-size: .8em;
+	}
+	a {
+		text-decoration: none;
+	}
+}
+
+.footer-call-to-action {
+	@media screen and (min-width: 700px) {
+		width: 45%;
+		float: left;
+		margin-right: 8%;
+		margin-left: 2%;
+	}
+	@media screen and (min-width: 1000px) {
+		margin-right: 8%;
+		margin-left: 0;
+	}
+}
+
+.footer-contact {
+	float: left;
+	width: 100%;
+	@media screen and (min-width: 700px) {
+		width: 45%;
+	}
+	ul {
+		list-style-type: none;
+		-webkit-column-count: 2;
+		-moz-column-count: 2;
+		column-count: 2;
+		margin-top: 2em;
+	}
+	li {
+		padding-bottom: 2em;
+	}
+	a {
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+}
+
+.footer-wrapper {
+	background-color: $light-blue;
+	margin-top: 2em;
+	padding-bottom: 1em;
+	border-top: 4px solid $dark-blue;
 }

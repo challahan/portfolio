@@ -1,35 +1,59 @@
 nav {
 	background-color: $dark-blue;
 	font-family: $sans-serif-condensed;
-	padding: .75em;
+	padding: .75em .75em .9em .75em;
 	margin-bottom: 1em;
+	border-top: 1px solid white;
 	ul {
 		display: -webkit-flex;
 		display: flex;
+		-webkit-justify-content: space-between;
 		justify-content: space-between;
 		list-style-type: none;
 		width: 80%;
+		max-width: 275px;
 		margin: 0 auto;
 	}
 	a {
 		color: white;
 		text-decoration: none;
+		transition: .3s color ease;
+		&:hover, &:focus {
+			color: $gold;
+		}
 	}
 	li {
 		-webkit-flex-direction: row;
 		flex-direction: row;
 		text-align: center;
+		&.active a {
+			color: $gold;
+		}
 	}
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 750px) {
 	nav {
 		position: absolute;
 		width: 40%;
+		border: 1px solid white;
 		border-radius: 5px;
 		right: 0px;
 		margin-right: -5px;
 		max-width: 450px;
 		font-size: 1.3em;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	nav {
+		margin-right: 0;
+		top: -5px;
+		transition: .3s all ease;
+		padding-top: 1.5em;
+		padding-bottom: 1.6em;
+		&:hover {
+			background-color: darken($dark-blue, 5%);
+		}
 	}
 }
