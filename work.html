@@ -8,7 +8,7 @@ permalink: /work/
 <ul class="project-posts">
 {% for projects in site.projects reversed %}
 	<li class="highlight">
-		<a href="{{ projects.url }}">
+		<a href="{{base.url}}{{ projects.url }}">
 			<figure class="project-thumb">
 				<img src="../assets/{{projects.thumbnail}}" />
 			</figure>
