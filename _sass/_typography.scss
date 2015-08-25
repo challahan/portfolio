@@ -20,7 +20,7 @@ h2 {
 	color: $dark-blue;
 	position: relative;
 	font-size: 1.8em;
-	line-height: 1.1;
+	line-height: 1.2;
 	@media screen and (min-width: 500px) {
 		font-size: 2em;
 	}
@@ -61,7 +61,7 @@ p {
 
 .introduction {
 	font-size: 1.1em;
-	line-height: 1.5;
+	line-height: 1.6;
 	padding-bottom: 2em;
 	border-bottom: 1px solid rgba($gray, .25);
 	margin-bottom: 2.5em;
