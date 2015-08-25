@@ -23,8 +23,15 @@ nav {
 		-webkit-flex-direction: row;
 		flex-direction: row;
 		text-align: center;
+		border-bottom: none;
+		padding-bottom: 10px;
 		&.active a {
 			color: $light-yellow;
+		}
+		&:hover {
+			border-bottom: 5px solid $green;
+			transition: border-bottom-width 0.5s;
+			padding-bottom: 5px;
 		}
 	}
 }
