@@ -1,11 +1,16 @@
 ---
-layout: default
+layout: home
 ---
 
+<section class="feature-block-container">
+<div class="feature-block">
+<h1>Christopher Hallahan</h1>
 <h2>Web and User Experience Consulting in Kent, Ohio</h2>
-
+</section>
+</div>
+<main>
+<img class="feature-headshot" src="{{base.url}}/assets/headshot-circle.jpg" alt="Hallahan Headshot" />
 <p class="introduction">Hi, I’m Chris Hallahan.  I work with clients to make their products better through user-centered design.  During the day, I work full-time for Kent State University at a student-powered agency called <a href="http://www.ideabasekent.com">IdeaBase</a> and teach a <a href="http://www.rwdkent.com">class on Responsive Web Design</a>. Feel free to <a href="{{base.url}}work">browse my work</a>, read my <a href="{{base.url}}blog">latest posts</a> or <a href="{{base.url}}contact">get in touch</a>.</p>
-
 <section class="highlight-container">
 	<div class="highlight highlight-writing">
 		<h3>Writing &amp; Talks</h3>
@@ -21,11 +26,13 @@ layout: default
 		<h3>Projects</h3>
 		{% for project in site.projects limit:2 %}
 			<div class="project">
-				<a href="{{ site.baseurl }}{{ project.url }}"><img src="assets/{{project.thumbnail}}" />
+				<a href="{{ site.baseurl }}{{ project.url }}"><img src="assets/{{project.featurethumbnail}}" />
 				<h4>{{ project.title }}</h4>
+				<p>{{project.type}}</p>
 				</a>
 			</div>
 		{% endfor %}
 		<a class="button" href="{{ site.baseurl }}work">More Projects</a>
 	</div>
 </section>
+</main>

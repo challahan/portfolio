@@ -5,7 +5,7 @@ footer {
 	padding: 1.5em;
 	
 	h3 {
-		color: $gold;
+		color: $light-yellow;
 		text-transform: none;
 		font-size: 2em;
 		margin-top: .25em;
@@ -41,11 +41,19 @@ footer {
 }
 
 .footer-call-to-action {
+	img {
+		float: left;
+		margin-left: -5em;
+		padding-right: 1.5em;
+	}
 	@media screen and (min-width: 700px) {
 		width: 45%;
 		float: left;
 		margin-right: 8%;
 		margin-left: 2%;
+		img {
+			padding-right: 2em;
+		}
 	}
 	@media screen and (min-width: 1000px) {
 		margin-right: 8%;
@@ -77,8 +85,7 @@ footer {
 }
 
 .footer-wrapper {
-	background-color: $light-blue;
+	background-color: $dark-blue;
 	margin-top: 2em;
 	padding-bottom: 1em;
-	border-top: 4px solid $dark-blue;
 }

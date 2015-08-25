@@ -1,9 +1,6 @@
 nav {
 	background-color: $dark-blue;
 	font-family: $sans-serif-condensed;
-	padding: .75em .75em .9em .75em;
-	margin-bottom: 1em;
-	border-top: 1px solid white;
 	ul {
 		display: -webkit-flex;
 		display: flex;
@@ -19,7 +16,7 @@ nav {
 		text-decoration: none;
 		transition: .3s color ease;
 		&:hover, &:focus {
-			color: $gold;
+			color: $light-yellow;
 		}
 	}
 	li {
@@ -27,7 +24,7 @@ nav {
 		flex-direction: row;
 		text-align: center;
 		&.active a {
-			color: $gold;
+			color: $light-yellow;
 		}
 	}
 }
@@ -36,24 +33,20 @@ nav {
 	nav {
 		position: absolute;
 		width: 40%;
-		border: 1px solid white;
-		border-radius: 5px;
+		padding-top: .65em;
+		padding-bottom: 1.6em;
 		right: 0px;
-		margin-right: -5px;
-		max-width: 450px;
+		max-width: 550px;
 		font-size: 1.3em;
+		ul {
+			max-width: 400px;
+		}
 	}
 }
 
 @media screen and (min-width: 1000px) {
 	nav {
 		margin-right: 0;
-		top: -5px;
 		transition: .3s all ease;
-		padding-top: 1.5em;
-		padding-bottom: 1.6em;
-		&:hover {
-			background-color: darken($dark-blue, 5%);
-		}
 	}
 }
