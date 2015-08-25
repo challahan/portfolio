@@ -5,10 +5,10 @@
 	  </a>
 	<nav>
 	  <ul>
-	    <li  {% if page.url contains '/blog/' %} class="active"{% endif %}><a href="/{{base.url}}blog">Blog</a></li>
-	    <li  {% if page.url contains '/work/' %} class="active"{% endif %}><a href="/{{base.url}}work">Work</a></li>
-	    <li  {% if page.url contains '/about/' %} class="active"{% endif %}><a href="/{{base.url}}about">About</a></li>
-	    <li  {% if page.url contains '/contact/' %} class="active"{% endif %}><a href="/{{base.url}}contact">Contact</a></li>
+	    <li  {% if page.url contains '/blog/' %} class="active"{% endif %}><a href="{{ site.baseurl }}blog">Blog</a></li>
+	    <li  {% if page.url contains '/work/' %} class="active"{% endif %}><a href="{{ site.baseurl }}work">Work</a></li>
+	    <li  {% if page.url contains '/about/' %} class="active"{% endif %}><a href="{{ site.baseurl }}about">About</a></li>
+	    <li  {% if page.url contains '/contact/' %} class="active"{% endif %}><a href="{{ site.baseurl }}contact">Contact</a></li>
 	  </ul>
 	</nav>
 </header>
