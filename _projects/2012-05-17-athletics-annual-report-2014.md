@@ -5,6 +5,7 @@ title:  "Athletics Annual Report 2014"
 link: "http://www.supportgoldenflashes.com/2014_Annual_Report/"
 thumbnail: "athletics.jpg"
 featurethumbnail: "athletics-thumb.jpg"
+thumbnailalt: "Athletics Website Screenshot"
 client: "Kent State University Athletics"
 type: "Web Design"
 link: http://www.supportgoldenflashes.com/2014_Annual_Report/
