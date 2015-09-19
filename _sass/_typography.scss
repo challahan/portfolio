@@ -29,6 +29,10 @@ h2 {
 	}
 	@media screen and (min-width: 1030px) {
 		margin-left: 0;
+		font-size: 3.2em;
+	}
+	@media screen and (min-width: 1400px) {
+		margin-left: 0;
 		font-size: 3.5em;
 	}
 }
@@ -52,6 +56,7 @@ h4 {
 	font-size: 1.1rem;
 	color: $light-blue;
 	margin-bottom: .5em;
+	margin-top: 1.5em;
 }
 
 p {
@@ -96,4 +101,8 @@ p a {
 	&:hover, &:focus {
 		color: $light-blue;
 	}
+}
+
+.post-title {
+	font-size: 2.5em;
 }

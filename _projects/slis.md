@@ -5,6 +5,7 @@ title:  "School of Library & Information Science Website"
 link: "http://www.kent.edu/slis"
 thumbnail: "slis.jpg"
 client: "School of Library & Information Science (SLIS), Kent State University"
+date: 2015-01-15 23:30:58.000000000 -04:00
 ---
 
 Completed in January 2015, the redesigned Kent State University School of Library and Information Science (SLIS) website was completed in partnership with IdeaBase, a student-run agency within the college.  It was the first custom-designed template to launch in Kent State’s new Drupal content management system and features:
