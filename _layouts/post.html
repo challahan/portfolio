@@ -7,14 +7,18 @@ layout: default
 	<span class="post-date">{{ page.date | date: "%b %-d, %Y" }}</span>
 	{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
 
-  <div class="post-thumb-large">
-  	<img src="../../../assets/{{page.thumbnail}}" />
-  </div>
+  {% if page.thumbnail %}
+    <div class="post-thumb-large">
+    	<img src="../../../assets/{{page.thumbnail}}" />
+    </div>
+  {% endif %}
 
   <article role="article" class="post-content">
     {{ content }}
   </article>
 
-  <a class="button" href="{{page.link}}">View the Project</a>
+  {% if page.link %}
+    <a class="button" href="{{page.link}}">View the Project</a>
+  {% endif %}
 
 </div>

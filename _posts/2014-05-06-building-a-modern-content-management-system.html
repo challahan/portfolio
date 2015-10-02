@@ -2,8 +2,6 @@
 layout: post
 title: 'Building a Modern Content Management System: University Web Redesign Series'
 date: 2014-05-06 04:14:50.000000000 -04:00
-categories:
-- Blog Post
 tags:
 - content management system
 - content modeling
@@ -26,17 +24,17 @@ published: true
 </ul>
 <p>Our Information Services technology department chose Drupal for these needs, which was robust enough to handle these requirements, but allowed for extreme customization to fit our specific needs.</p>
 <h3>Content Modeling</h3>
-<p>[caption id="attachment_444" align="alignleft" width="300"]<a href="http://www.chrishallahan.com/wp/wp-content/uploads/2014/05/Screen-Shot-2014-05-06-at-12.06.34-AM.png"><img class="wp-image-444 size-medium" src="assets/Screen-Shot-2014-05-06-at-12.06.34-AM-300x224.png" alt="Content Modeling" width="300" height="224" /></a> Content Modeling[/caption]</p>
+<p><img class="wp-image-444 size-medium" src="{{site.baseurl}}/assets/Screen-Shot-2014-05-06-at-12.06.34-AM-300x224.png" alt="Content Modeling" width="300" height="224" /></p>
 <p>The process started with content modeling, where we worked with the IT group to map our content types into fields, field types and help text.  Some examples of content types included Profiles, News Articles, Basic Page, Organic Groups, Infographics and Forms.  Designing and mapping content types to the content management system is a user experience project by itself and was challenging for the team, as the presentation layer wasn't yet available to validate how our fields would display.</p>
 <p>Overall, I wish we had segmented content into more discrete fields, as customized content, such as landing pages and pages with columns, were extremely difficult to edit and maintain in a single content chunk.</p>
 <h3>Migrating Content</h3>
 <p>A big part of any redesign is migrating existing content.  The challenge is deciding what content is actually useful, well-written and well-structured.  Many times, the team found that content could be combined or simplified greatly.  We paid attention to structuring content with headings, bullet points and graphics.   Thousands of news articles and content pages were migrated and edited over a few months time.</p>
 <h3>Designing the Templates</h3>
-<p>[caption id="attachment_445" align="alignleft" width="300"]<a href="http://www.chrishallahan.com/wp/wp-content/uploads/2014/05/landing-page.jpg"><img class="wp-image-445 size-medium" src="assets/landing-page-300x234.jpg" alt="Early Landing Page Prototyping Template" width="300" height="234" /></a> Early Landing Page Prototyping Template[/caption]</p>
+<p><img class="wp-image-445 size-medium" src="{{site.baseurl}}/assets/landing-page-300x234.jpg" alt="Early Landing Page Prototyping Template" width="300" height="234" /></a></p>
 <p>Concurrent with content migration, the IT team began building out page templates, mapping our content types and design concepts to actual HTML and CSS.  This process proved to be a monumental task, and we found many flaws in the original design concepts that would not translate well to responsive design, or features that took a hit on performance.  Testing the concepts in a more robust prototyping phase would have resolved many of these problems early on.  Additionally, the lack of access to CSS proved challenging to the design team, who could not make design changes on the fly.  Our team did end up building custom landing pages and recruitment pages using HTML/CSS, collaborating on GitHub and then transferring to the CMS later.   A design early-on to utilize the ZURB Foundation 4 template in Drupal made responsive design and design pattern creation (see <a href="http://patterns.kent.edu">http://patterns.kent.edu</a>) a simpler process.</p>
 <p>Finally, the WYSIWYG interface presented many difficulties throughout the design process, as we tried to balance robust content formatting without providing too much access to HTML and JavaScript.</p>
 <h3>Information Architecture</h3>
-<p>[caption id="attachment_446" align="alignleft" width="300"]<a href="http://www.chrishallahan.com/wp/wp-content/uploads/2014/05/Screen-Shot-2014-05-06-at-12.10.23-AM.png"><img class="wp-image-446 size-medium" src="assets/Screen-Shot-2014-05-06-at-12.10.23-AM-300x258.png" alt="Drupal Menu System" width="300" height="258" /></a> Drupal Menu System[/caption]</p>
+<p><img class="wp-image-446 size-medium" src="{{site.baseurl}}/assets/Screen-Shot-2014-05-06-at-12.10.23-AM-300x258.png" alt="Drupal Menu System" width="300" height="258" /></a></p>
 <p>Much of the information architecture was recycled from the current website, with many sections combined, or labels modified based on testing feedback.  Drupal's robust menu system allowed for much easier menu creation and organization than our previous content management system.  Some new feature sections included our landing pages, Discover Kent State, an introduction to Kent State's campus, the city of Kent and attractions beyond Kent.  A combined calendar page brought together three disparate university calendars into one location for the first time.</p>
 <h3>Testing, Optimizing for Performance and Launch</h3>
 <p>Performance became a huge concern near the end of the content management project.  Many features - such as the many sliders and gradients we had originally proposed on the home page design - simply did not translate well to smaller screens and caused a huge performance hit.  More testing early on may have helped ease this phase.  Additionally, an expedited schedule meant that many parts of the smartphone and tablet interface were squeezed in at the last minute.  The team also performed accessibility testing, using screen readers like JAWS, to ensure features were compliant with government standards and were accessible to the Kent State community.</p>
