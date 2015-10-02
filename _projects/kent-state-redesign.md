@@ -5,6 +5,8 @@ title:  "Kent State University Web Redesign"
 link: "http://www.kent.edu"
 thumbnail: "ksu.jpg"
 client: "Kent State University"
+date: 2014-05-17 23:30:58.000000000 -04:00
+
 ---
 
 The new www.kent.edu launched on May 4, 2014, refreshing the Kent State home page, all of our top-level sections and Undergraduate Admissions.  The next phases of the website will launch throughout 2014.  Below, I’ll take you some of the coolest features of the new website.

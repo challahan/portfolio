@@ -6,13 +6,14 @@ permalink: /work/
 
 <p>You can view some selections of my past and present projects below.  Note that I’ve worked with some very talented people on most of these projects, and I can’t thank them enough for their help with these collaborations. I’ve done my best to outline my role(s) within each project.</p>
 <ul class="project-posts">
-{% for projects in site.projects reversed %}
+{% assign items = site.projects | sort: 'date' %}
+{% for item in items reversed %}
 	<li class="highlight">
-		<a href="{{ site.baseurl }}{{ projects.url }}">
+		<a href="{{ site.baseurl }}{{ item.url }}">
 			<figure class="project-thumb">
-				<img src="../assets/{{projects.thumbnail}}" />
+				<img src="../assets/{{item.thumbnail}}" />
 			</figure>
-			<h4>{{ projects.title }}</h4>
+			<h4>{{ item.title }}</h4>
 		</a>
 	</li>
 {% endfor %}

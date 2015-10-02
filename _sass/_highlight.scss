@@ -6,10 +6,10 @@
 		width: 12px;
 		border-radius: 3px;
 		margin-top: .5em;
-		margin-left: -1.75em;
+		margin-left: -1.1em;
 		position: absolute;
-		height: 100%;
 		display: inline-block;
+		height: 20px;
 	}
 	a {
 		text-decoration: none;
@@ -22,9 +22,6 @@
 	@media screen and (min-width: 700px) {
 		width: 45%;
 		float: left;
-		&:before {
-			height: 20px;
-		}
 	}
 }
 

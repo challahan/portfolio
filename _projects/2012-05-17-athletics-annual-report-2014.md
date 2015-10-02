@@ -1,6 +1,7 @@
 ---
 layout: project
 collection: project
+date: 2014-10-01 23:30:58.000000000 -04:00
 title:  "Athletics Annual Report 2014"
 link: "http://www.supportgoldenflashes.com/2014_Annual_Report/"
 thumbnail: "athletics.jpg"
