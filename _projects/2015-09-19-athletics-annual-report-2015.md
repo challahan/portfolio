@@ -4,7 +4,7 @@ collection: project
 title:  "Athletics Annual Report 2015"
 link: "http://www.supportgoldenflashes.com/2015_Annual_Report/"
 thumbnail: "annual-report-2015.jpg"
-featurethumbnail: "annual-report-2015-thumb.png"
+featurethumbnail: "annual-report-2015-thumb.jpg"
 thumbnailalt: "Athletics Website Screenshot"
 client: "Kent State University Athletics"
 type: "Web Design"
