@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Blog
+title: Writing &amp; Talks
 permalink: /blog/
 ---
 
 <ul class="blog-posts">
 {% for post in site.posts %}
-			<li class="highlight">
+			<li class="highlight highlight--blog">
 				<a href="{{ site.baseurl }}{{ post.url }}">
 				<h4>{{ post.title }}</h4>
 				<span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>

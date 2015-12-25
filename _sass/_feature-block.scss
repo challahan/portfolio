@@ -20,15 +20,18 @@
 }
 
 .feature-block-container--page {
-	margin-bottom: 1.5em;
+	margin-bottom: 0;
+	@media screen and (min-width: 700px) {
+		margin-bottom: 1.5em;
+	}
 }
 
 .feature-headshot {
-	width: 100px;
+	width: 125px;
 	border: 5px solid white;
-	-webkit-shape-outside:  circle(47px at 41.4% 24%);
-	shape-outside:  circle(47px at 41.4% 24%);
-	border-radius: 50px;
+	-webkit-shape-outside:  circle(70px at 41.4% 24%);
+	shape-outside:  circle(70px at 41.4% 24%);
+	border-radius: 60px;
 	margin-top: -2em;
 	margin-right: 2em;
 	margin-left: -.5em;
@@ -48,7 +51,7 @@
 		margin-top: -3em;
 		border-radius: 140px;
 		margin-right: 3em;
-		-webkit-shape-outside: circle(133px at 41.35% 38.75%);
-		shape-outside: circle(133px at 41.35% 38.75%);
+		-webkit-shape-outside: circle(150px at 41.35% 38.75%);
+		shape-outside: circle(150px at 41.35% 38.75%);
 	}
 }

@@ -5,8 +5,8 @@
 		content:"";
 		width: 12px;
 		border-radius: 3px;
-		margin-top: .5em;
-		margin-left: -1.1em;
+		margin-top: .4em;
+		margin-left: 0em;
 		position: absolute;
 		display: inline-block;
 		height: 20px;
@@ -18,11 +18,19 @@
 	h3 {
 		margin-top: 0;
 		padding-top: 0;
+		padding-left: 1em;
 	}
 	@media screen and (min-width: 700px) {
 		width: 45%;
 		float: left;
+		&:before {
+			margin-top: .6em;
+		}
 	}
+}
+
+.highlight--blog {
+	border-bottom: 1px solid gray;
 }
 
 .highlight-container {
