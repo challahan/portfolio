@@ -2,14 +2,20 @@
 	margin: 0 auto;
 	max-width: 1000px;
 	padding: 3em 1.5em;
-	@media screen and (min-width: 800px) {
-		padding: 4em 1.5em 4em 1.5em;
+	@media screen and (min-width: 700px) {
+		padding: 4em 3.5em;
+	}
+	@media screen and (min-width: 1000px) {
+		padding: 4em 1.5em;
 	}
 }
 
 .feature-block--page {
 	padding: 2.5em 0 1em 1.5em;
-	@media screen and (min-width: 800px) {
+	@media screen and (min-width: 700px) {
+		padding: 2.5em 0 1em 3.5em;
+	}
+	@media screen and (min-width: 1000px) {
 		padding: 4em 0 1em 1.5em;
 	}
 }
