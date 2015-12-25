@@ -1,0 +1,9 @@
+.list-columns {
+	list-style-type: none;
+	margin: 0;
+	display: block;
+	padding: 0;
+	-webkit-columns: 300px 2;
+	   -moz-columns: 300px 2;
+	        columns: 300px 2;
+	}
