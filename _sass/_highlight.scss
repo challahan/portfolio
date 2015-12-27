@@ -1,6 +1,6 @@
 .highlight {
 	position: relative;
-	margin-bottom: 2em;
+	margin-bottom: 0em;
 	&:before {
 		content:"";
 		width: 12px;
@@ -30,7 +30,10 @@
 }
 
 .highlight--blog {
-	border-bottom: 1px solid gray;
+	border-bottom: 1px solid lighten($gray, 55%);;
+	h4 {
+		font-size: 1.2em;
+	}
 }
 
 .highlight-container {
@@ -60,19 +63,28 @@
 .blog-posts, .project-posts {
 	@include clearfix;
 	list-style-type: none;
-	li:nth-child(odd) {
-		margin-right: 10%;
+	@media screen and (min-width: 700px) {
+		li:nth-child(odd) {
+			margin-right: 10%;
+		}
 	}
 }
 
 .project-posts {
 	img {
 		max-width: 300px;
+		display: inline-block;
 	}
 }
 
 .project-thumb {
 	height: 200px;
 	overflow: hidden;
-	margin-bottom: 1em;
+	margin-bottom: 0em;
+	text-align: center;
+}
+.project-posts .highlight h4 {
+	margin-bottom: 3em;
+	margin-top: .5em;
+	text-align: center;
 }

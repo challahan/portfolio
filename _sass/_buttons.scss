@@ -21,4 +21,10 @@ a.read-more-link {
 	color: $light-blue;
 	font-size: .85em;
 	margin-bottom: 2em;
+	&:after {
+		content: "\2192";
+		width: 25px;
+		height: 25px;
+		margin-left: .5em;
+	}
 }

@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I work full time for Kent State's College of Communication & Information (CCI) as a User Experience Designer at the college and IdeaBase, a collaborative, student-run agency located in Downtown Kent, where we conduct research, design and development work for real-world clients, both inside and outside the university.
+<p class="introduction">I work full time for Kent State's College of Communication & Information (CCI) as a User Experience Designer at the college and IdeaBase, a collaborative, student-run agency located in Downtown Kent, where we conduct research, design and development work for real-world clients, both inside and outside the university.</p>
 
 ### Philosophy
 

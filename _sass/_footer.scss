@@ -18,6 +18,9 @@ footer {
 	}
 	a {
 		color: white;
+		&:hover {
+			color: $gold;
+		}
 	}
 	p {
 		font-size: 1.1em;
@@ -91,6 +94,9 @@ footer {
 		text-decoration: none;
 		text-transform: uppercase;
 		font-weight: bold;
+		&:hover {
+			color: $gold;
+		}
 	}
 }
 
@@ -98,4 +104,10 @@ footer {
 	background-color: $dark-blue;
 	margin-top: 2em;
 	padding-bottom: 1em;
+}
+
+.footer-bottom__legal {
+	a {
+		text-transform: none;
+	}
 }

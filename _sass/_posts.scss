@@ -1,14 +1,19 @@
 .post-thumb-large {
 	margin-bottom: 1em;
+	text-align: center;
 	img {
-		max-width: 100%;
+		width: 100%;
+		max-width: 250px;
+		display:inline-block;
 		padding: .5em;
 	}
 	@media screen and (min-width: 800px) {
 		float: right;
-		width: 450px;
 		padding-left: 3em;
 		padding-bottom: 2em;
+		img {
+			max-width: 450px;
+		}
 	}
 }
 

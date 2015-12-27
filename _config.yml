@@ -1,7 +1,7 @@
 # Site settings
-title: Christopher Hallahan - User Experience and Web Design Consultant
+title: User Experience (UX) and Web Design Consulting in Kent OH
 email: chris@chrishallahan.com
-description: "Providing user experience and web design consulting services in Kent, OH."
+description: "Freelancer providing user experience and web design (Drupal/WordPress) consulting services in Kent, Ohio."
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.chrishallahan.com" # the base hostname & protocol for your site
 twitter_username: challahan
