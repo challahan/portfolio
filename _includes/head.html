@@ -450,46 +450,12 @@
       margin-left: -5em;
       padding-right: 1.5em;
       margin-bottom: 1em; }
-    @media screen and (min-width: 700px) {
-      .footer-call-to-action {
-        width: 45%;
-        float: left;
-        margin-right: 8%;
-        margin-left: 2%; }
-        .footer-call-to-action img {
-          padding-right: 2em;
-          max-width: 175px; } }
-    @media screen and (min-width: 1000px) {
-      .footer-call-to-action {
-        margin-right: 8%;
-        margin-left: 0; }
-        .footer-call-to-action img {
-          margin-left: -3em; } }
+  
 
     .footer-contact {
       float: left;
       width: 100%; }
-      @media screen and (min-width: 700px) {
-        .footer-contact {
-          width: 45%; } }
-      .footer-contact img {
-        width: 30px;
-        margin-right: 1em; }
-      .footer-contact ul {
-        list-style-type: none;
-        -webkit-column-count: 2;
-        -moz-column-count: 2;
-        column-count: 2;
-        margin-top: 1em; }
-      .footer-contact li {
-        padding-bottom: 2em; }
-      .footer-contact a {
-        text-decoration: none;
-        text-transform: uppercase;
-        font-weight: bold; }
-        .footer-contact a:hover {
-          color: #ffd026; }
-
+  
     .footer-wrapper {
       background-color: #024f69;
       margin-top: 2em;
@@ -499,16 +465,9 @@
       text-transform: none; }
   </style>
   <script>
-    // include loadCSS here...
     (function(w){
       "use strict";
-      /* exported loadCSS */
       var loadCSS = function( href, before, media ){
-        // Arguments explained:
-        // `href` [REQUIRED] is the URL for your CSS file.
-        // `before` [OPTIONAL] is the element the script should use as a reference for injecting our stylesheet <link> before
-          // By default, loadCSS attempts to inject the link after the last stylesheet or script in the DOM. However, you might desire a more specific location in your document.
-        // `media` [OPTIONAL] is the media type or query of the stylesheet. By default it will be 'all'
         var doc = w.document;
         var ss = doc.createElement( "link" );
         var ref;
@@ -523,14 +482,9 @@
         var sheets = doc.styleSheets;
         ss.rel = "stylesheet";
         ss.href = href;
-        // temporarily set media to something inapplicable to ensure it'll fetch without blocking render
         ss.media = "only x";
 
-        // Inject link
-          // Note: the ternary preserves the existing behavior of "before" argument, but we could choose to change the argument to "after" in a later release and standardize on ref.nextSibling for all refs
-          // Note: `insertBefore` is used instead of `appendChild`, for safety re: http://www.paulirish.com/2011/surefire-dom-element-insertion/
         ref.parentNode.insertBefore( ss, ( before ? ref : ref.nextSibling ) );
-        // A method (exposed on return object for external use) that mimics onload by polling until document.styleSheets until it includes the new sheet.
         var onloadcssdefined = function( cb ){
           var resolvedHref = ss.href;
           var i = sheets.length;
@@ -543,15 +497,12 @@
             onloadcssdefined( cb );
           });
         };
-
-        // once loaded, set link's media back to `all` so that the stylesheet applies once it loads
         ss.onloadcssdefined = onloadcssdefined;
         onloadcssdefined(function() {
           ss.media = media || "all";
         });
         return ss;
       };
-      // commonjs
       if( typeof module !== "undefined" ){
         module.exports = loadCSS;
       }
@@ -559,7 +510,6 @@
         w.loadCSS = loadCSS;
       }
     }( typeof global !== "undefined" ? global : this ));
-    // load a file
     loadCSS( "{{ site.baseurl }}/css/main.css" );
   </script>
   <noscript><link href="{{ site.baseurl }}/css/main.css" rel="stylesheet"></noscript>
