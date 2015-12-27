@@ -3,15 +3,15 @@ layout: default
 ---
 <div class="feature-block-container feature-block-container--page">
   <div class="feature-block feature-block--page">
+  <a href="../work">See All Work</a>
 	<h1 class="post-title">{{ page.title }}</h1>
-	<a href="../work">See All Work</a>
   </div>
 </div>
 <main>
 	<div class="post">
 	  <article role="article" class="post-content">
 	  <div class="post-thumb-large">
-	  	<img src="../assets/{{page.thumbnail}}" />
+	  	<img src="../assets/{{page.thumbnail}}" alt="{{page.thumbnailalt}}" />
 	  </div>
 	    {{ content }}
 	  </article>

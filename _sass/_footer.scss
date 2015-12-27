@@ -19,7 +19,7 @@ footer {
 	a {
 		color: white;
 		&:hover {
-			color: $gold;
+			color: $light-yellow;
 		}
 	}
 	p {
@@ -36,6 +36,7 @@ footer {
 	p {
 		margin: 0.25em 0;
 		font-size: .8em;
+		line-height: 1;
 	}
 	a {
 		text-decoration: none;
@@ -95,7 +96,7 @@ footer {
 		text-transform: uppercase;
 		font-weight: bold;
 		&:hover {
-			color: $gold;
+			color: $light-yellow;
 		}
 	}
 }

@@ -12,7 +12,7 @@ date: 2015-09-18 23:30:58.000000000 -04:00
 
 ---
 
-I designed the Responsive Web Design course for Kent State University's Colleg e of Communication and Information in Summer 2015.  The course debuted in the Fall '15 semester and was offered again for Spring '16.  We would like to continue offering this course, along with a more advanced, CMS-focused, version indefinitely.
+I designed the Responsive Web Design course for Kent State University's College of Communication and Information in Summer 2015.  The course debuted in the Fall '15 semester and was offered again for Spring '16.  We would like to continue offering this course, along with a more advanced, CMS-focused, version indefinitely.
 
 The course was designed from the ground up to meet the student hunger for more practical, design-focused web courses in the college that were less purely technical (as others in other Colleges were).  The course also approaches web design from a mobile-first and content-first perspective, ensuring that designs are scaleable to and usable on any device.
 

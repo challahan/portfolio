@@ -3,19 +3,20 @@ layout: default
 ---
 <div class="feature-block-container feature-block-container--page">
   <div class="feature-block feature-block--page">
+  <a href="../../../blog">See All Posts</a>
+
     <h1 class="post-title">{{ page.title }}</h1>
-    <a href="../../../blog">See All Posts</a>
+    <p class="post-meta">
+    <span class="post-date">{{ page.date | date: "%b %-d, %Y" }}</span>
+    {% if page.author %}<span class="post-author">By {{ page.author }}</span>{% endif %}</p>
   </div>
 </div>
 <main>
-<div class="post">
-	<p class="post-meta">
-	<span class="post-date">{{ page.date | date: "%b %-d, %Y" }}</span>
-	{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+<div class="blog-post">
 
   {% if page.thumbnail %}
     <div class="post-thumb-large">
-    	<img src="../../../assets/{{page.thumbnail}}" />
+    	<img src="../../../assets/{{page.thumbnail}}" alt="{{page.thumbnailalt}}" />
     </div>
   {% endif %}
 

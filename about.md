@@ -1,10 +1,10 @@
 ---
 layout: page
-title: About
+title: About Chris Hallahan
 permalink: /about/
 ---
 
-<p class="introduction">I work full time for Kent State's College of Communication & Information (CCI) as a User Experience Designer at the college and IdeaBase, a collaborative, student-run agency located in Downtown Kent, where we conduct research, design and development work for real-world clients, both inside and outside the university.</p>
+<p class="introduction">I work full time for Kent State's College of Communication & Information (CCI) as a User Experience Designer at the college and IdeaBase, a collaborative, student-run agency located in Downtown Kent, where we conduct research, design and development work for real-world clients, both inside and outside the university.  I also run my own freelance web and UX consulting business on the side.</p>
 
 ### Philosophy
 

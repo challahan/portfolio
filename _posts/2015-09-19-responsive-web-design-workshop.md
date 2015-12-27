@@ -7,6 +7,7 @@ status: publish
 type: post
 published: true
 thumbnail: rwd.png
+author: Christopher Hallahan
 link: https://speakerdeck.com/challahan/responsive-web-design-workshop
 ---
 

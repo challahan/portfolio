@@ -68,6 +68,8 @@
 	text-decoration: none;
 	text-transform: uppercase;
 	font-weight: bold;
+	margin-bottom: 1.5em;
+	display: block;
 	&:before {
 		content: "\2190";
 		width: 25px;

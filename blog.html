@@ -10,6 +10,7 @@ permalink: /blog/
 				<a href="{{ site.baseurl }}{{ post.url }}">
 				<h4>{{ post.title }}</h4>
 				<span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+				{% if post.author %}<span class="post-author">By {{ post.author }}</span>{% endif %}
 				{{ post.excerpt }}</a>
 				<a class="read-more-link" href="{{ site.baseurl }}{{ post.url }}">Continue Reading</a>
 			</li>
