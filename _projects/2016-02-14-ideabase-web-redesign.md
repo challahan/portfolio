@@ -7,7 +7,7 @@ thumbnail: "ideabase-website.jpg"
 featurethumbnail: "ideabase-website-thumb.jpg"
 thumbnailalt: "IdeaBase Website Screenshot"
 client: "IdeaBase"
-type: "Web"
+type: "Web Design"
 date: 2016-02-14 23:30:58.000000000 -04:00
 
 ---
