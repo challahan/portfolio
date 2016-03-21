@@ -32,7 +32,7 @@ IdeaBase and College of Communication and Information, Kent State University, Us
 * Mentor and train students on the latest in web and interaction design standards.
 * Research and discover new ways to integrate web technology and user experience design into our workflow, advocating a mobile-first and content-first strategy.
 
-####November 2012 – November 2014
+#### November 2012 – November 2014
 University Communications and Marketing, Kent State University , Interactive Designer and Developer
 
 * Designed new Kent State website’s look-and-feel, including colors, typography and user interface patterns
@@ -44,7 +44,7 @@ University Communications and Marketing, Kent State University , Interactive Des
 * Assist with usability testing and focus groups for high school students and the Kent State community
 * Provide weekly support and troubleshooting for the university’s content management system
 
-####August 2011 – November 2012
+#### August 2011 – November 2012
 Division of Information Services, Kent State University , Lead IT User Support Analyst
 
 * Maintained architecture, navigation, knowledge management and metrics for the campus online support system Served on web advisory board, developing goals, prototypes and process flows for various technology websites Designed print marketing materials, using Adobe Creative Suite, that promoted IT services
