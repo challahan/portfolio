@@ -2,6 +2,9 @@
 	margin: 0 auto;
 	max-width: 1000px;
 	padding: 3em 1.5em;
+	@media screen and (min-width: 600px) {
+	    padding: 3em 2em;
+	}
 	@media screen and (min-width: 700px) {
 		padding: 4em 3.5em;
 	}
@@ -42,6 +45,15 @@
 	margin-right: 2em;
 	margin-left: -.5em;
 	float: left;
+	@media screen and (min-width: 600px) {
+		width: 180px;
+		margin-top: -2em;
+		border-radius: 100px;
+		margin-right: 3em;
+		margin-bottom: 1em;
+		-webkit-shape-outside: circle(100px at 40.75% 29.2%);
+		shape-outside: circle(100px at 40.75% 29.2%);
+	}
 	@media screen and (min-width: 700px) {
 		width: 200px;
 		margin-top: -3em;

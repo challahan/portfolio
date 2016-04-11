@@ -49,10 +49,14 @@ h3 {
 
 h4 {
 	font-weight: bold;
-	font-size: 1.1rem;
+	font-size: 1.2rem;
 	color: $light-blue;
 	margin-bottom: .5em;
 	margin-top: 1.5em;
+	@media screen and (min-width: 700px) {
+		font-size: 1.3rem;
+		margin-bottom: .7em;
+	}
 }
 
 p {
@@ -100,6 +104,7 @@ article {
 p a {
 	font-weight: bold;
 	color: $dark-blue;
+	word-break:break-word;
 	transition: .3s color ease;
 	&:hover, &:focus {
 		color: $light-blue;
@@ -113,4 +118,8 @@ p a {
 hr {
 	margin-top: 2.5em;
 	margin-bottom: 2.5em;
+}
+
+.credits {
+	font-size: .85em;
 }
