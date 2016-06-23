@@ -8,8 +8,7 @@ featurethumbnail: "rbuzz-small.jpg"
 thumbnailalt: "Reading Buzz Website Screenshot"
 client: "Reading Buzz"
 type: "Web Design"
-date: 2016-06-22 23:30:58.000000000 -04:00
-
+date: 2016-06-22
 ---
 
 IdeaBase worked with Lindsey Buzzelli to design a website for her start-up business, Reading Buzz.  Reading Buzz provides video library lessons to school librarians and teachers.
