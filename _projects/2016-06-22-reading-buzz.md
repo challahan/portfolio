@@ -11,9 +11,9 @@ type: "Web Design"
 date: 2016-06-22
 ---
 
-IdeaBase worked with Lindsey Buzzelli to design a website for her start-up business, Reading Buzz.  Reading Buzz provides video library lessons to school librarians and teachers.
+IdeaBase worked with Lindsey Buzzelli to design a website for her start-up business, [Reading Buzz](http://readingbuzz.us).  Reading Buzz provides video library lessons to school librarians and teachers.
 
-I led the project from beginning to completion, ensuring designers, developers and content strategists designed for a great user experience.  I also concentrated on the front-end development of the custom theme using CraftCMS.
+I led the project from beginning to completion, ensuring designers, developers and content strategists designed for a great user experience.  I also concentrated on the front-end development of the custom theme using CraftCMS.  IdeaBase and Glyphix (our studio class) also developed branding, video content and social media as part of the project.
 
 Some of the features of Reading Buzz include:
 
