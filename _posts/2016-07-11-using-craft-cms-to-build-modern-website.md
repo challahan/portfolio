@@ -29,3 +29,5 @@ If you're not familiar with using Craft, check it out on [Craft's Website](http:
 ### 4.  Handling Responsive Images Using Transforms
 
 ### 5.  Building for Alternate Displays, including MailChimp Email, RSS and AMP
+
+If you have any questions for me about the process of using Craft to create this website, please feel free to [email me](mailto:chris@chrishallahan.com).
