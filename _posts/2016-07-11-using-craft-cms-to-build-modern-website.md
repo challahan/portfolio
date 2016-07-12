@@ -7,8 +7,6 @@ status: publish
 type: post
 permalink: /blog/:title/
 published: true
-thumbnailalt: ""
-thumbnail: vr-large.jpg
 author: Christopher Hallahan
 ---
 
