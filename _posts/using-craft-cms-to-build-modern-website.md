@@ -6,7 +6,7 @@ tags: []
 status: publish
 type: post
 permalink: /blog/:title/
-published: false
+published: true
 thumbnailalt: ""
 thumbnail: vr-large.jpg
 author: Christopher Hallahan
