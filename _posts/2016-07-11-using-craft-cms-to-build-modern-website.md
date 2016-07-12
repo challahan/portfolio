@@ -6,7 +6,7 @@ tags: []
 status: publish
 type: post
 permalink: /blog/:title/
-published: true
+published: false
 author: Christopher Hallahan
 ---
 
