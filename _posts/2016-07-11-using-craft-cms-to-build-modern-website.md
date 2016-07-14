@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Using Craft CMS to Blog, Create Emails, Optimize for Search, Create Responsive Images and More"
+title: "Using Craft CMS to Blog, Create Emails, Optimize for Search, Produce Responsive Images and More"
 date: 2016-07-11 22:55:31.000000000 -04:00
 tags: []
 status: publish
@@ -9,6 +9,8 @@ permalink: /blog/:title/
 published: false
 author: Christopher Hallahan
 ---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IISSWXs4mXw" frameborder="0" allowfullscreen></iframe>
 
 Building our latest web project within Craft CMS allowed the team to take advantage of complex content relationships and remix content in a variety of ways behind the web.  
 
