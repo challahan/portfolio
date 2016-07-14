@@ -22,7 +22,13 @@ If you're not familiar with using Craft, check it out on [Craft's Website](http:
 
 ### 1.  Building Custom Posts Types, including Blogs
 
+Like most entry types, blogs and other types of content aren't available out of the box in Craft.  However, you can easily define a new section and fields related to blog posts.  I chose to define fields for short and long descriptions (to use on the blog listing page and home page carousel, for example), as well as a matrix field for the blog post content itself.
+
+Using the matrix field for the blog content allows for the author to add various components in any desired order to the blog post, for example some body copy, an embedded image with caption and a pull quote.
+
 ### 2.  Using Live Preview to See Entries in Context
+
+While editing entries, the Live Preview feature allows the author to see their edits within the web page template in real time, providing much better context to their editing experience.  Fields are shown to the left, while the page being edited is shown on the right, and authors can even grab the resize tool in the center of Live Preview to see how the post will look at different viewport sizes.
 
 ### 3.  Optimizing for Search using the Seomatic Plugin
 
