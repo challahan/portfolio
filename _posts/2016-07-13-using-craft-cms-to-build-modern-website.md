@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Using Craft CMS to Blog, Create Emails, Optimize for Search, Produce Responsive Images and More"
-date: 2016-07-14 22:55:31.000000000 -04:00
+date: 2016-07-13 22:55:31.000000000 -04:00
 tags: []
 status: publish
 type: post
