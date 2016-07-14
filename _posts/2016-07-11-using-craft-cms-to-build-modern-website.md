@@ -10,13 +10,11 @@ published: true
 author: Christopher Hallahan
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IISSWXs4mXw" frameborder="0" allowfullscreen></iframe>
-
 Building our latest web project within Craft CMS allowed the team to take advantage of complex content relationships and remix content in a variety of ways behind the web.  
 
 I put together a 20 minute video webcast (below) demonstrating how each of the features were implemented behind the scenes.
 
-[ Video Goes Here ]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IISSWXs4mXw" frameborder="0" allowfullscreen></iframe>
 
 Of, if you'd rather read, listed below are five features of Craft CMS that I feel helped speed up our development timeline and create an intuitive experience for our client.  The example website I'm using is for Reading Buzz, which you can visit at [www.readingbuzz.us](http://www.readingbuzz.us).
 
