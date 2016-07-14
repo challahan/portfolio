@@ -50,4 +50,6 @@ By not repeating content, I was able to reuse fields to create full HTML email t
 
 If you'd like to see more about how I integrated RSS and email into Craft, be sure to check out the video above.
 
+### Questions or Comments?
+
 If you have any questions for me about the process of using Craft to create this website, please feel free to [email me](mailto:chris@chrishallahan.com).
