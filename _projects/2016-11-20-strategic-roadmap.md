@@ -11,7 +11,7 @@ type: "Web Design"
 date: 2016-11-20
 ---
 
-IdeaBase partnered with Kent State University's Strategic Roadmap to a Distinctive Kent State.  This interactive roadmap was developed based on design concepts, photography and videography from University Communications and Marketing.  Working with a student web developer, we worked on the development and responsive implementation of the report, including:
+IdeaBase worked on Kent State University's Strategic Roadmap to a Distinctive Kent State in Fall 2016.  This interactive roadmap was developed based on design concepts, photography and videography from University Communications and Marketing.  Working with a student web developer, we worked on the development and responsive implementation of the report, including:
 
 * Writing all front-end HTML and SCSS
 * Implementing third-party JavaScript for menus
