@@ -4,6 +4,7 @@ email: chris@chrishallahan.com
 description: "Freelancer providing user experience and web design (Drupal/WordPress) consulting services in Kent, Ohio."
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://www.chrishallahan.com" # the base hostname & protocol for your site
+enforce_ssl: www.chrishallahan.com   # without any protocol
 twitter_username: challahan
 github_username:  challahan
 
