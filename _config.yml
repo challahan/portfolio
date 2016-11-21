@@ -18,3 +18,8 @@ future: true
 collections:
    projects:
      output: true
+
+# sass
+
+sass:
+    style: compressed
