@@ -19,6 +19,7 @@
   <link rel="icon" type="image/png" href="{{site.baseurl}}/favicon-96x96.png" sizes="96x96">
   <link rel="icon" type="image/png" href="{{site.baseurl}}/favicon-16x16.png" sizes="16x16">
   <link rel="manifest" href="{{site.baseurl}}/manifest.json">
+  <meta http-equiv="Content-Security-Policy" content="default-src www.youtube.com; script-src 'self' www.chrishallahan.com chrishallahan.com www.google-analytics.com ajax.googleapis.com; connect-src 'self'; img-src 'self' www.google-analytics.com; style-src 'self' fonts.googleapis.com 'unsafe-inline'; font-src 'self' fonts.gstatic.com;">
   <meta name="msapplication-TileColor" content="#2b5797">
   <meta name="msapplication-TileImage" content="{{site.baseurl}}//mstile-144x144.png">
   <meta name="theme-color" content="#ffffff">
@@ -28,53 +29,6 @@
   <style type="text/css">
         {% include critical.css %}
       </style>
-  <script>
-    (function(w){
-      "use strict";
-      var loadCSS = function( href, before, media ){
-        var doc = w.document;
-        var ss = doc.createElement( "link" );
-        var ref;
-        if( before ){
-          ref = before;
-        }
-        else {
-          var refs = ( doc.body || doc.getElementsByTagName( "head" )[ 0 ] ).childNodes;
-          ref = refs[ refs.length - 1];
-        }
-
-        var sheets = doc.styleSheets;
-        ss.rel = "stylesheet";
-        ss.href = href;
-        ss.media = "only x";
-
-        ref.parentNode.insertBefore( ss, ( before ? ref : ref.nextSibling ) );
-        var onloadcssdefined = function( cb ){
-          var resolvedHref = ss.href;
-          var i = sheets.length;
-          while( i-- ){
-            if( sheets[ i ].href === resolvedHref ){
-              return cb();
-            }
-          }
-          setTimeout(function() {
-            onloadcssdefined( cb );
-          });
-        };
-        ss.onloadcssdefined = onloadcssdefined;
-        onloadcssdefined(function() {
-          ss.media = media || "all";
-        });
-        return ss;
-      };
-      if( typeof module !== "undefined" ){
-        module.exports = loadCSS;
-      }
-      else {
-        w.loadCSS = loadCSS;
-      }
-    }( typeof global !== "undefined" ? global : this ));
-    loadCSS( "{{ site.baseurl }}/css/main.css" );
-  </script>
+  <script src="{{ site.baseurl }}/scripts/loadcss.js"></script>
   <noscript><link href="{{ site.baseurl }}/css/main.css" rel="stylesheet"></noscript>
 </head>

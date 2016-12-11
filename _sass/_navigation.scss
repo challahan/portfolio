@@ -16,6 +16,7 @@ nav {
 		color: white;
 		text-decoration: none;
 		transition: .3s color ease;
+		font-size: .8em;
 		&:hover, &:focus {
 			color: $light-yellow;
 		}
@@ -42,7 +43,7 @@ nav {
 		background-color: $dark-blue;
 		position: absolute;
 		width: 80%;
-		padding-top: .65em;
+		padding-top: .85em;
 		padding-bottom: 1.6em;
 		right: 0px;
 		max-width: 550px;
@@ -57,5 +58,8 @@ nav {
 	nav {
 		margin-right: 0;
 		transition: .3s all ease;
+		a {
+			font-size: .9em;
+		}
 	}
 }
